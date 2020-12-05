@@ -1,0 +1,9 @@
+# Server
+- ItemsController.ts
+- PointsController.ts
+
+#Mobile
+- api.ts
+
+# Web
+- api.ts
