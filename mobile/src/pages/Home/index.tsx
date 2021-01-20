@@ -16,13 +16,13 @@ const Home = () => {
   const backgroundOpacityAnim = useRef(new Animated.Value(1)).current;
 
   const fadeIn = () => {
-    Animated.timing(backgroundTransformAnim, { toValue: 0, duration: 1000 }).start();
-    Animated.timing(backgroundOpacityAnim, { toValue: 1, duration: 2000 }).start();
+    Animated.timing(backgroundTransformAnim, { toValue: 0, duration: 1000, useNativeDriver: true }).start();
+    Animated.timing(backgroundOpacityAnim, { toValue: 1, duration: 2000, useNativeDriver: true }).start();
   };
 
   const fadeOut = () => {
-    Animated.timing(backgroundOpacityAnim, { toValue: 0, duration: 500 }).start();
-    Animated.timing(backgroundTransformAnim, { toValue: -300, duration: 1000 }).start();
+    Animated.timing(backgroundOpacityAnim, { toValue: 0, duration: 500, useNativeDriver: true }).start();
+    Animated.timing(backgroundTransformAnim, { toValue: -300, duration: 1000, useNativeDriver: true }).start();
   };
 
   function handleNavigateToPoints(){

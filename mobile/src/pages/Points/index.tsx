@@ -72,6 +72,7 @@ const Points = () => {
         }
       }).then( response => {
         setPoints(response.data);
+        points.map(point => console.log(point))
       });
     }, [selectedItems]);
 
