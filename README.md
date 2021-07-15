@@ -4,17 +4,20 @@
 
 <p align="center">
   <a href="#-ecoleta">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-testar">Como Testar</a>
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
   <img alt="PlantManager" src=".github/capa.png" width="100%">
 </p>
 
-# 🍀 Ecoleta
+# ♻ Ecoleta
 
+### ***Já pensou em ajudar a manter nosso planeta mais limpo?*** Ecoleta está aqui para ajudar. 
 
+Ecoleta foi mais uma aplicação completa ( back-end, front-end e mobile ) desenvolvida na primeira edição do NLW da @rockeatseat. Através da plataforma web é possível fazer o cadastro de pontos de coleta de resíduos, posteriormente esses pontos são listados dentro de um mapa no aplicativo mobile. O usuário então que tem o interesse em fazer o depósito de seus resíduos consegue filtrar e encontrar o ponto de coleta mais próximo.
+
+Ao clicar no ponto no mapa o usuário tem acesso a todas as informações daquele ponto de coleta, conseguindo também enviar um email ou uma mensagem por whatsapp diretamente para a instituição que gerencia o ponto, assim é possível tirar suas possíveis dúvidas ou conseguir mais informações.
 
 # ⚛ Tecnologias
 
@@ -26,11 +29,13 @@ Durante o desenvolvimento do projeto as principais tecnologias usadas foram:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+<!---
 # 🚀 Como testar
 
 ## Configurando ambiente 
 
 ### NodeJs
+
 Primeiro vamos precisar fazer algumas instalações e configurações em sua máquina. A primeira delas é a instalação do [NodeJS](https://nodejs.org/en/) em sua máquina. O processo de instalação é bem simples, só dar next next que é sucesso. 😉
 
 Caso tenha alguma dúvida, ou tenha ocorrido algum erro consulte o próprio site, eles contam com uma excelente documentação e com certeza vão poder te ajudar.
@@ -54,4 +59,6 @@ Depois de descompactado, você deve navegar até a pasta raiz do seu projeto, pa
 $ npm install
 ```
 
-É importante que o comando seja executado dentro do diretório onde o ```package.json``` se encontra, pois é através dele que será instaladas todas as dependências do projeto. 
+É importante que o comando seja executado dentro do diretório onde o ```package.json``` se encontra, pois é através dele que será instaladas todas as dependências do projeto.
+ 
+-->
