@@ -13,7 +13,7 @@
 
 # ♻ Ecoleta
 
-### ***Já pensou em ajudar a manter nosso planeta mais limpo?*** Ecoleta está aqui para ajudar. 
+### ***Já pensou em ajudar a manter nosso planeta mais limpo?*** Ecoleta está aqui para ajudar. 😉🌍
 
 Ecoleta foi mais uma aplicação completa ( back-end, front-end e mobile ) desenvolvida na primeira edição do NLW da @rockeatseat. Através da plataforma web é possível fazer o cadastro de pontos de coleta de resíduos, posteriormente esses pontos são listados dentro de um mapa no aplicativo mobile. O usuário então que tem o interesse em fazer o depósito de seus resíduos consegue filtrar e encontrar o ponto de coleta mais próximo.
 
